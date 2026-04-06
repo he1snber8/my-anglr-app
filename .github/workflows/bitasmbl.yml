@@ -15,6 +15,8 @@ jobs:
         run: npx create-next-app@latest ./frontend
       - name: Commit scaffold
         run: |
+          git config user.name "bitasmbl-bot"
+          git config user.email "bot@bitasmbl.com"
           git add .
           git commit -m "bitasmbl: scaffold project"
           git push
