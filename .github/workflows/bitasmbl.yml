@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Frontend
-        run: npx create-react-app .
+        run: npx create-next-app@latest .
       - name: Commit scaffold
         run: |
           git add .
