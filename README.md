@@ -1,2 +1,1 @@
-# my-anglr-app
-Some description
+Readme content
